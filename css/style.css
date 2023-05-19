@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 5px 0;
+}
+
+.logo{
+    width: 77%;
+}
+
+.logo img{
+  width: 200px;
+  height: 50px;  
+}
+
+.menu{
+    width: 20%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100px - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: rgb(201, 144, 255);
+}
+
+.flor img{
+    width: 650px;
+    height: 550px;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 40px;
+    margin: 20px 0;
+
+}
+
+.texto-sobre{
+    margin-top: 0px;
+}
+
+.texto-sobre h1{
+    font-size: 30px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 19px;
+    max-width: 700px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
